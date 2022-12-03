@@ -35,7 +35,6 @@ public class Project extends JFrame
     {
         public void actionPerformed( ActionEvent event )
         {
-            // JOptionPane.showMessageDialog( Project.this, String.format( "You pressed: %s", event.getActionCommand() ) );
             if(event.getSource() == Button1)
             {
                 String Text = "<html>B.Sc in Software Engineering<ul><li>Duration: 4 Years" + "<li>Total Credits: 160" + "<li>Availability: Day" + "<li>Entry Time: January/July</u></ul>Programme Summary:\n\n The BSc in Software Engineering is a 48(forty-eight) months-long undergraduate programme\n for those, who intend to achieve a Bachelor of Science degree from the department of\n software engineering. Students have to complete 148 credits theory and lab courses along\n with 12 credits internship from any reputed software development firm, a total of 160 credits\n to be a graduate. The programme is designed on the basis of outcome-based curriculum\n equipped with science & mathematics courses, general education courses, core computer\n science courses, specialized courses on software analysis, design, development, software\n quality assurance and a sufficient number of courses on most recent trends. The programme\n will motivate the graduates to go that extra mile through learning new skills and improving\n existing ones, which is a trait that can only be achieved by striving for excellence.";
